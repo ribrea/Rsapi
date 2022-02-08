@@ -1,8 +1,10 @@
-[package]
-name = "router"
-version = "0.1.0"
+name = "rsapi_router"
+version = "0.5.0-rc.1"
+authors = ["Arian Ebrahimi <ribrea@icloud.com>"]
+description = """
+Types, traits, and parsers for HTTP requests, responses, and headers.
+"""
+keywords = ["web", "framework", "http"]
+license = "MIT OR Apache-2.0"
+categories = ["web-programming"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
