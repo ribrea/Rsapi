@@ -1,3 +1,4 @@
+[package]
 name = "rsapi_router"
 version = "0.5.0-rc.1"
 authors = ["Arian Ebrahimi <ribrea@icloud.com>"]

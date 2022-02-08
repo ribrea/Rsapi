@@ -6,3 +6,15 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+json = "0.11.13"
+futures = "0.3"
+mime = "0.3.16"
+pretty_env_logger = "0.4"
+rsapi_router = {path = "../router" }
+rsapi_middleware = {path = "../middleware" }
+rsapi_http = {path = "../http" }
+rsapi_logger = {path = "../logger" }
+rsapi_database = {path = "../database" }
+rsapi_macro_bar = {path = "../macro_bar" }
